@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    line-height: 1.5;
+}
+html, body {
+    font-size: 62.5%;
+}
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+body header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.4rem;
+    font-size: 1.8rem;
+    color: #FFF2E7;
+}
+header .logo {
+    font-family: Righteous;
+    font-size: 40px;
+}
+span {
+    color: #047579;
+}
+header nav {
+    display: flex;
+    gap: 3.2rem;
+}
+nav .text-menu {
+    font-family: Sarala;
+    font-size: 2.0rem;
+    color: #FFF2E7;
+}
+button .btn-mobile {
+    display: none;
+}
+body main {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 4.8rem;
+}
+main .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content .cont-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.8rem;
+    gap: 1.5rem;
+}
+.cont-box h1 {
+    font-family: Sarala;
+    font-size: 2.1rem;
+    color: #FFF2E7;
+}
+.cont-box p {
+    font-family: Sarala;
+    font-size: 1.5rem;
+    color: #FFF2E7;
+}
+.content button {
+    width: 50%;
+    height: 45px;
+    margin-left: 5.5rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ecd6c487;
+}
+.content img {
+    width: 25%;
+    height: auto;
+    margin-top: 4.8rem;
+}
+main .content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.8rem;
+    gap: 1.5rem;
+    font-family: Sarala;
+    color: #FFF2E7;
+}
+.content-2 h3 {
+    font-size: 2.0rem;
+    border-top:0.4px solid #FFF2E7;
+    padding-top: 4.8rem; 
+}
+.sobre-servicos .text {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+body footer {
+    text-align: center;
+    margin-bottom: 4.8rem;  
+    border-top: 0.4px solid #FFF2E7;
+}
+footer .edit-footer {
+    padding-top: 2.0rem;
+}
+.edit-footer p {
+    font-size: 4.0rem;
+    color: #FFF;
+}
+.edit-footer p:last-child {
+    font-size: 1.9rem;
+    font-family: Righteous;
+    color: #FFF2E7;
+}
+@media only screen and (max-width: 1180px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo, nav {
+        margin: 15px 0;
+    }  
+}
+@media only screen and (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+    .content img {
+        display: none;
+    }
+    .content-2 .sobre-servicos {
+        width: 90%;
+    }
+    .sobre-servicos .text {
+        text-align: justify;
+        margin: 8px 0;
+    }
+}
+    
+
+
+
+

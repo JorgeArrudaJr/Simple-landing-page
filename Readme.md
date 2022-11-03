@@ -1,0 +1,1 @@
+Hello developers and recruiter, this project is a simple landing page of a fictional technology company covering services provided by this tec company. Project without complexity for intermediate to experienced developers but that serves as a source of ideas for these developers being able to advise me and pass something that makes a difference to my knowledge.
