@@ -1,11 +1,9 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
-    line-height: 1.5;
 }
 html, body {
     font-size: 62.5%;
@@ -36,9 +34,6 @@ nav .text-menu {
     font-family: Sarala;
     font-size: 2.0rem;
     color: #FFF2E7;
-}
-button .btn-mobile {
-    display: none;
 }
 body main {
     border-top: 0.4px solid #FFF2E7;
@@ -97,7 +92,7 @@ main .content-2 {
 }
 .sobre-servicos .text {
     font-size: 1.6rem;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 body footer {
     text-align: center;
